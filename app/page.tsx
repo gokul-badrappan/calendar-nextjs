@@ -15,8 +15,8 @@ const BookingForm = () => {
   });
   const [availableTimes, setAvailableTimes] = useState<Record<string, string[]>>({
     'Person A': ['09:00', '10:00'],
-    'Person B': ['09:30', '10:30'],
-    'Person C': ['11:00', '12 :00'],
+    'Person B': ['2:30', '3:30'],
+    'Person C': ['4:00', '5:00'],
   });
 
 
