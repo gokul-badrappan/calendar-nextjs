@@ -8,7 +8,7 @@ const BookingForm = () => {
   const [selectedDate, setSelectedDate] = useState(new Date());
   const [selectedUser, setSelectedUser] = useState<string>('');
   const [selectedTime, setSelectedTime] = useState<string>('');
-  const [allowedDates, setAllowedDates] = useState<Record<string, number[]>>({
+  const [allowedDates, setSelectedDates] = useState<Record<string, number[]>>({
     'Person A': [1, 7, 14, 21, 28],
     'Person B': [2, 8, 15, 22, 29],
     'Person C': [3, 9, 16, 23, 30], 
