@@ -121,7 +121,7 @@ const BookingForm = () => {
 
   return (
     <div className="mx-auto text-center text-white fontFamily:'Sacramento,cursive,sans-serif'">
-      <h1 className="mb-5" style={{ fontSize: '4em' }}>  Appointify </h1>
+      <h1 className="mb-5" style={{ fontSize: '4em',fontFamily:'Sacramento,cursive' }}>  Appointify </h1>
       <div className="w-full">
         <label htmlFor="userDropdown" className="mb-4 text-white fontFamily:'Sacramento,cursive,sans-serif'">
           Select User:
