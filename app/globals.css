@@ -9,7 +9,7 @@ body {
   display: flex;
   height: 100%;
   align-items: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 .blue-chip {
